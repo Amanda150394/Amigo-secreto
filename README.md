@@ -59,12 +59,3 @@ function sortearAmigo() {
   novoResultado.textContent = `Amigo sorteado: ${itens[indiceAleatorio].textContent}`; // Mantém o caso original
   resultado.appendChild(novoResultado);
 }
-
-##Esse trecho de código é interessante porque utiliza um loop do-while para garantir que o nome sorteado seja sempre diferente do nome do usuário, além de converter os nomes para minúsculas para evitar problemas de capitalização.
-
-##Estrutura do Projeto
-index.html: Contém a estrutura HTML do projeto.
-
-style.css: Contém os estilos CSS para a aparência do site.
-
-app.js: Contém a lógica JavaScript para adicionar nomes e realizar o sorteio.
